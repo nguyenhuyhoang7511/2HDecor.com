@@ -1,0 +1,2039 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNS Simen – MultiPurpose WooCommerce WordPress Theme</title>
+    <link rel="icon" href="./assets/image/img1.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="top-header">
+                <div class="grid wide">
+                    <div class="topheader v-center">
+                        <div class="topheader__left v-center">
+                            <ul class="topheader__left__list v-center">
+                                <li class="topheader__left__item switch-language">
+                                    <div class="select-language">
+                                        <img src="./assets/image/vietnam_mini.png" alt="en"> Việt Nam
+                                    </div>
+                                        
+                                    <ul class="language__list">
+                                        
+                                        <li class="language__item">
+                                            <img src="./assets/image/en.jpg" alt="en"> English
+                                        </li>
+                                        <li class="language__item">
+                                            <img src="./assets/image/ru.jpg" alt="ru"> Russian
+                                        </li>
+                                        <li class="language__item">
+                                            <img src="./assets/image/bra.jpg" alt="bra"> Brazil
+                                        </li>
+                                        <li class="language__item">
+                                            <img src="./assets/image/fr.jpg" alt="fr"> France
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="topheader__left__item switch-currency">
+                                    <div class="select-currency">
+                                        VND
+                                    </div>
+                                    <ul class="currency__list">
+                                        <li class="currency__item">
+                                            USD
+                                        </li>
+                                        <li class="currency__item">
+                                            EURO
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="topheader__right v-center">
+                            <div class="icon__mobile">
+                                <i class="fas fa-anchor"></i>
+                            </div>
+                            <ul class="topheader__right__list v-center">
+                                <li class="topheader__right__item">
+                                    <i class="fa fa-user"></i> Tài Khoản
+                                </li>
+                                <li class="topheader__right__item">
+                                    <i class="fa fa-heart"></i> Yêu Thích
+                                </li>
+                                <li class="topheader__right__item">
+                                    <i style="font-size: 18px;" class="bi bi-cart-check-fill"></i> Giỏ Hàng
+                                </li>
+                                <li class="topheader__right__item">
+                                    <i class="fa fa-key"></i> Đăng Nhập
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bot-header">
+                <div class="grid wide">
+                    <div class="row botheader">
+                        <div class="botheader__brand col xlg-3 lg-3 md-3 sm-12 xsm-12">
+                            <a href="">
+                                <img src="./assets/image/logo.png" alt="SNS Simen">
+                            </a>
+                        </div>
+                        <div class="col xlg-9 lg-9 md-9 sm-12 xsm-12">
+                            <div class="row">
+                                <div class="col xlg-4 lg-4 md-4">
+                                    <div class="sns-icon-box v-center">
+                                        <div class="sns-icon-left v-center">
+                                            <i class="fa fa-truck"></i>
+                                        </div>
+                                        <div class="sns-icon-right-content">
+                                            <h4>GIAO HÀNG TOÀN QUỐC</h4>
+                                            <span>Freeship cho đơn hàng từ 500k</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col xlg-4 lg-4 md-4">
+                                    <div class="sns-icon-box v-center">
+                                        <div class="sns-icon-left v-center">
+                                            <i class="fa fa-cloud-upload-alt"></i>
+                                        </div>
+                                        <div class="sns-icon-right-content">
+                                            <h4>GIẢM 5% CHO KHÁCH HÀNG CŨ</h4>
+                                            <span>Niềm vui khi mua sắm</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col xlg-4 lg-4 md-4">
+                                    <div class="sns-icon-box v-center">
+                                        <div class="sns-icon-left v-center">
+                                            <i class="fa fa-gift"></i>
+                                        </div>
+                                        <div class="sns-icon-right-content">
+                                            <h4>QUÀ TẶNG HẤP DẪN</h4>
+                                            <span>Tặng kèm sản phẩm khi mua</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__menu">
+                <div class="grid wide">
+                    <div class="header__menu__container v-center">
+                        <div class="menu-button-mobile">
+                            <i class="fas fa-bars"></i>
+                            <div class="menu-button-mobile__modal">
+                                <div class="navsub-menu">
+                                    <div class="navsub-menu__item">
+                                        <div class="navsub-menu__item__title">
+                                            <a href="">Home</a>
+                                            <button class="btn__open-close"></button>
+                                        </div>
+                                        <div class="navsub-menu__children-1">
+                                            <div class="navsub-menu__children-1__item">
+                                                <div class="navsub-menu__children-1__title navsub-menu__item__title">
+                                                    <a href="">Home Page 123</a>
+                                                </div>
+                                            </div>
+                                            <div class="navsub-menu__children-1__item">
+                                                <div class="navsub-menu__children-1__title navsub-menu__item__title">
+                                                    <a href="">Home Page 2</a>
+                                                </div>
+                                            </div>
+                                            <div class="navsub-menu__children-1__item">
+                                                <div class="navsub-menu__children-1__title navsub-menu__item__title">
+                                                    <a href="">Home Page 3</a>
+                                                </div>
+                                            </div>
+                                            <div class="navsub-menu__children-1__item">
+                                                <div class="navsub-menu__children-1__title navsub-menu__item__title">
+                                                    <a href="">Home Page 4</a>
+                                                </div>
+                                            </div>
+                                            <div class="navsub-menu__children-1__item">
+                                                <div class="navsub-menu__children-1__title navsub-menu__item__title">
+                                                    <a href="">Home Page 5</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="navsub-menu__item">
+                                        <div class="navsub-menu__item__title">
+                                            <a href="">Furniture</a>
+                                            <button class="btn__open-close"></button>
+                                        </div>
+                                        <div class="navsub-menu__children-1">
+                                            <div class="navsub-menu__children-1__item">
+                                                <div class="navsub-menu__children-1__title navsub-menu__item__title">
+                                                    <a href="">Table</a>
+                                                    <button class="btn__open-close"></button>
+                                                </div>
+                                                <div class="navsub-menu__children-2">
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">Kitchen & Dining Room Tables</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">Folding Table</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">Living Room Tables</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">Sofa Tables</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">End Tables</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">Coffee Tables</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">Pedestal Tables</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">Home Office Desks</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="navsub-menu__children-1__item">
+                                                <div class="navsub-menu__children-1__title navsub-menu__item__title">
+                                                    <a href="">Table</a>
+                                                    <button class="btn__open-close"></button>
+                                                </div>
+                                                <div class="navsub-menu__children-2">
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">Living Room Tables</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">Sofa Tables</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">End Tables</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">Coffee Tables</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">Pedestal Tables</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">Home Office Desks</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">Kids Furniture</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">Kitchen & Dinning Room Sets</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="navsub-menu__children-1__item">
+                                                <div class="navsub-menu__children-1__title navsub-menu__item__title">
+                                                    <a href="">Table</a>
+                                                    <button class="btn__open-close"></button>
+                                                </div>
+                                                <div class="navsub-menu__children-2">
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">Kitchen & Dining Room Tables</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">Folding Tables</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">End Tables</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">Coffee Tables</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">PedestalTables</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">Home Office Desks</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">Kids’Furniture</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">Kitchen & Dinning Room Sets</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="navsub-menu__children-1__item">
+                                                <div class="navsub-menu__children-1__title navsub-menu__item__title">
+                                                    <a href="">Table</a>
+                                                    <button class="btn__open-close"></button>
+                                                </div>
+                                                <div class="navsub-menu__children-2">
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">Dining Room Tables</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">Folding Tables</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">Living Room Tables</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">Sofa Tables</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">End Tables</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">Coffee Tables</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">Pedestal Tables</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="navsub-menu__item">
+                                        <div class="navsub-menu__item__title">
+                                            <a href="">Coffee Tables</a>
+                                        </div>
+                                    </div>
+                                    <div class="navsub-menu__item">
+                                        <div class="navsub-menu__item__title">
+                                            <a href="">Sofas</a>
+                                        </div>
+                                    </div>
+                                    <div class="navsub-menu__item">
+                                        <div class="navsub-menu__item__title">
+                                            <a href="">Bedroom Furniture</a>
+                                            <button class="btn__open-close"></button>
+                                        </div>
+                                        <div class="navsub-menu__children-1">
+                                            <div class="navsub-menu__children-1__item">
+                                                <div class="navsub-menu__children-1__title navsub-menu__item__title">
+                                                    <a href="">Sofa</a>
+                                                </div>
+                                            </div>
+                                            <div class="navsub-menu__children-1__item">
+                                                <div class="navsub-menu__children-1__title navsub-menu__item__title">
+                                                    <a href="">Chair</a>
+                                                </div>
+                                            </div>
+                                            <div class="navsub-menu__children-1__item">
+                                                <div class="navsub-menu__children-1__title navsub-menu__item__title">
+                                                    <a href="">Bad</a>
+                                                </div>
+                                            </div>
+                                            <div class="navsub-menu__children-1__item">
+                                                <div class="navsub-menu__children-1__title navsub-menu__item__title">
+                                                    <a href="">Furniture chest</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="navsub-menu__item">
+                                        <div class="navsub-menu__item__title">
+                                            <a href="">Shop</a>
+                                            <button class="btn__open-close"></button>
+                                        </div>
+                                        <div class="navsub-menu__children-1">
+                                            <div class="navsub-menu__children-1__item">
+                                                <div class="navsub-menu__children-1__title navsub-menu__item__title">
+                                                    <a href="">Product Types</a>
+                                                    <button class="btn__open-close"></button>
+                                                </div>
+                                                <div class="navsub-menu__children-2">
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">Simple Proudct</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">Grouped Prouduct</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">Variable Product</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">Variable Product – Color</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">Variable Product – Image</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">External/Affiliate Product</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="navsub-menu__children-1__item">
+                                                <div class="navsub-menu__children-1__title navsub-menu__item__title">
+                                                    <a href="">Shop Pages</a>
+                                                    <button class="btn__open-close"></button>
+                                                </div>
+                                                <div class="navsub-menu__children-2">
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">Shopping Cart</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">Checkout</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">My Account</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">Wishlist</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">404</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">Product Tag</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="navsub-menu__children-1__item">
+                                                <div class="navsub-menu__children-1__title navsub-menu__item__title">
+                                                    <a href="">Shop Shortcodes</a>
+                                                    <button class="btn__open-close"></button>
+                                                </div>
+                                                <div class="navsub-menu__children-2">
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">SNS Featured Categories</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">SNS Product Tabs</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">SNS Products</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="navsub-menu__item">
+                                        <div class="navsub-menu__item__title">
+                                            <a href="">Home</a>
+                                            <button class="btn__open-close"></button>
+                                        </div>
+                                        <div class="navsub-menu__children-1">
+                                            <div class="navsub-menu__children-1__item">
+                                                <div class="navsub-menu__children-1__title navsub-menu__item__title">
+                                                    <a href="">Blog FullWidth</a>
+                                                </div>
+                                            </div>
+                                            <div class="navsub-menu__children-1__item">
+                                                <div class="navsub-menu__children-1__title navsub-menu__item__title">
+                                                    <a href="">Blog FullWidth 2 Columns</a>
+                                                </div>
+                                            </div>
+                                            <div class="navsub-menu__children-1__item">
+                                                <div class="navsub-menu__children-1__title navsub-menu__item__title">
+                                                    <a href="">Blog FullWidth 3 Columns</a>
+                                                </div>
+                                            </div>
+                                            <div class="navsub-menu__children-1__item">
+                                                <div class="navsub-menu__children-1__title navsub-menu__item__title">
+                                                    <a href="">Blog Masonry</a>
+                                                </div>
+                                            </div>
+                                            <div class="navsub-menu__children-1__item">
+                                                <div class="navsub-menu__children-1__title navsub-menu__item__title">
+                                                    <a href="">Blog Left Sidebar</a>
+                                                </div>
+                                            </div>
+                                            <div class="navsub-menu__children-1__item">
+                                                <div class="navsub-menu__children-1__title navsub-menu__item__title">
+                                                    <a href="">Blog Right Sidebar</a>
+                                                </div>
+                                            </div>
+                                            <div class="navsub-menu__children-1__item">
+                                                <div class="navsub-menu__children-1__title navsub-menu__item__title">
+                                                    <a href="">Single Post</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="navsub-menu__item">
+                                        <div class="navsub-menu__item__title">
+                                            <a href="">Shortcodes</a>
+                                            <button class="btn__open-close"></button>
+                                        </div>
+                                        <div class="navsub-menu__children-1">
+                                            <div class="navsub-menu__children-1__item">
+                                                <div class="navsub-menu__children-1__title navsub-menu__item__title">
+                                                    <a href="">Shortcodes</a>
+                                                    <button class="btn__open-close"></button>
+                                                </div>
+                                                <div class="navsub-menu__children-2">
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">Accordions</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">Custom Heading</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">Messages</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">Progress Bar</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">SNS Counter</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">SNS Custom Box</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">SNS Featured Categories</a>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="navsub-menu__children-1__item">
+                                                <div class="navsub-menu__children-1__title navsub-menu__item__title">
+                                                    <a href="">Shortcodes</a>
+                                                    <button class="btn__open-close"></button>
+                                                </div>
+                                                <div class="navsub-menu__children-2">
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">SNS Latest Posts</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">SNS Member</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">SNS Our Brand</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">SNS Product Tabs</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">SNS Products</a>
+                                                    </div>
+                                                    <div class="navsub-menu__children-2__title navsub-menu__item__title">
+                                                        <a href="">SNS Testimonials</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="navsub-menu__item">
+                                        <div class="navsub-menu__item__title">
+                                            <a href="">Coffee Tables</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="sub-menu v-center hide-on-low-PC-mobile-tablet">
+                            <li class="sub-menu__item sub-menu__item--active">
+                                <a href="" class="sub-menu__item__link sub-menu__item__link--parent">TRANG CHỦ</a>
+                                <ul class="sub-menu__item__children sub-menu__item__children--col-1">
+                                    <li class="col-1__item">
+                                        <a href="" class="col-1__item__link">Trang Chủ 1</a>
+                                    </li>
+                                    <li class="col-1__item">
+                                        <a href="" class="col-1__item__link">Trang Chủ 2</a>
+                                    </li>
+                                    <li class="col-1__item">
+                                        <a href="" class="col-1__item__link">Trang Chủ 3</a>
+                                    </li>
+                                    <li class="col-1__item">
+                                        <a href="" class="col-1__item__link">Trang Chủ 4</a>
+                                    </li>
+                                    <li class="col-1__item">
+                                        <a href="" class="col-1__item__link">Trang Chủ 5</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="sub-menu__item sub-menu__item--static">
+                                <a href="" class="sub-menu__item__link sub-menu__item__link--parent">TRANH TREO TƯỜNG</a>
+                                <div class="sub-menu__item__children furniture__list">
+                                    <div class="row">
+                                        <div class="col xlg-3">
+                                            <div class="title-and-items">
+                                                <h3>TRANH DECOR</h3>
+                                                <ul class="items">
+                                                    <li class="item">
+                                                        <a href="" class="link">Tranh Decor</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">Tranh Decor</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">Tranh Decor </a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">Tranh Decor</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">Tranh Decor</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">Tranh Decor</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">Tranh Decor</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">Tranh Decor</a>
+                                                    </li>
+                                                </ul>
+
+                                            </div>
+                                        </div>
+                                        <div class="col xlg-3">
+                                            <div class="title-and-items">
+                                                <h3>MẪU HOA SEN</h3>
+                                                <ul class="items">
+                                                    <li class="item">
+                                                        <a href="" class="link">Mẫu Hoa Sen</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">Mẫu Hoa Sen</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">Mẫu Hoa Sen</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">Mẫu Hoa Sen</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">Mẫu Hoa Sen</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">Mẫu Hoa Sen</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">Mẫu Hoa Sen</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">Mẫu Hoa Sen</a>
+                                                    </li>
+                                                </ul>
+
+                                            </div>
+                                        </div>
+                                        <div class="col xlg-3">
+                                            <div class="title-and-items">
+
+                                                <h3>MẪU NHÀ BẾP</h3>
+                                                <ul class="items">
+                                                    <li class="item">
+                                                        <a href="" class="link">Mẫu Nhà Bếp</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">Mẫu Nhà Bếp</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">Mẫu Nhà Bếp</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">Mẫu Nhà Bếp</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">Mẫu Nhà Bếp</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">Mẫu Nhà Bếp</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">Mẫu Nhà Bếp</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">Mẫu Nhà Bếp</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col xlg-3">
+                                            <div class="title-and-items">
+
+                                                <h3>TRANH VANGOGH</h3>
+                                                <ul class="items">
+                                                    <li class="item">
+                                                        <a href="" class="link">Tranh Ý Nghĩa</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">Tranh Ý Nghĩa</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">Tranh Ý Nghĩa</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">Tranh Ý Nghĩa</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">Tranh Ý Nghĩa</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">Tranh Ý Nghĩa</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">Tranh Ý Nghĩa</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">Tranh Ý Nghĩa</a>
+                                                    </li>
+                                                    
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            
+                            <li class="sub-menu__item">
+                                <a href="" class="sub-menu__item__link">NỔI BẬT</a>
+                            </li>
+                            <li class="sub-menu__item sub-menu__item--static">
+                                <a href="" class="sub-menu__item__link sub-menu__item__link--parent">DECOR MẪU</a>
+                                <div class="sub-menu__item__children bedroom-furniture__list">
+                                    <div class="row">
+                                        <div class="col xlg-3">
+                                            <a href="" class="image">
+                                                <img src="./assets/image/img7.png" alt="">
+                                            </a>
+                                            <a href="" class="title">MẪU SOFA</a>
+                                            <span class="content">Viết mô tả cho mẫu này</span>
+                                        </div>
+                                        <div class="col xlg-3">
+                                            <a href="" class="image">
+                                                <img src="./assets/image/img8.jpg" alt="">
+                                            </a>
+                                            <a href="" class="title">MẪU GHẾ</a>
+                                            <span class="content">Viết mô tả cho mẫu này</span>
+                                        </div>
+                                        <div class="col xlg-3">
+                                            <a href="" class="image">
+                                                <img src="./assets/image/img9.jpg" alt="">
+                                            </a>
+                                            <a href="" class="title">MẪU GIƯỜNG</a>
+                                            <span class="content">Viết mô tả cho mẫu này</span>
+                                        </div>
+                                        <div class="col xlg-3">
+                                            <a href="" class="image">
+                                                <img src="./assets/image/img10.jpg" alt="">
+                                            </a>
+                                            <a href="" class="title">MẪU TỦ</a>
+                                            <span class="content">Viết mô tả cho mẫu này</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="sub-menu__item sub-menu__item--static">
+                                <a href="" class="sub-menu__item__link sub-menu__item__link--parent">KHÁM PHÁ</a>
+                                <div class="sub-menu__item__children shop__list">
+                                    <div class="row">
+                                        <div class="col xlg-4">
+                                            <div class="title-and-items">
+                                                <h3>XEM THÊM</h3>
+                                                <ul class="items">
+                                                    <li class="item">
+                                                        <a href="" class="link">Thêm Khám phá 1</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">Thêm Khám phá 1</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">Thêm Khám phá 1</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">Thêm Khám phá 1 </a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">Thêm Khám phá 1 </a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">Thêm Khám phá 1</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col xlg-4">
+                                            <div class="title-and-items">
+                                                <h3>NỔI BẬT</h3>
+                                                <ul class="items">
+                                                    <li class="item">
+                                                        <a href="" class="link">Thêm Nổi Bật</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">Thêm Nổi Bật</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">Thêm Nổi Bật</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">Thêm Nổi Bật</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">Thêm Nổi Bật</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">Thêm Nổi Bật</a>
+                                                    </li>
+                                                </ul>
+
+                                            </div>
+                                        </div>
+                                        <div class="col xlg-4">
+                                            <div class="title-and-items">
+
+                                                <h3>THÊM SỰ KIỆN</h3>
+                                                <ul class="items">
+                                                    <li class="item">
+                                                        <a href="" class="link">Thêm Sự Kiện</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">Thêm Sự Kiện</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">Thêm Sự Kiện</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="sub-menu__item">
+                                <a href="" class="sub-menu__item__link sub-menu__item__link--parent">PHỤ KIỆN</a>
+                                <ul class="sub-menu__item__children sub-menu__item__children--col-1">
+                                    <li class="col-1__item">
+                                        <a href="" class="col-1__item__link">Tên Phụ Kiện</a>
+                                    </li>
+                                    <li class="col-1__item">
+                                        <a href="" class="col-1__item__link">Tên Phụ Kiện</a>
+                                    </li>
+                                    <li class="col-1__item">
+                                        <a href="" class="col-1__item__link">Tên Phụ Kiện</a>
+                                    </li>
+                                    <li class="col-1__item">
+                                        <a href="" class="col-1__item__link">Tên Phụ Kiện</a>
+                                    </li>
+                                    <li class="col-1__item">
+                                        <a href="" class="col-1__item__link"> Tên Phụ Kiện</a>
+                                    </li>
+                                    <li class="col-1__item">
+                                        <a href="" class="col-1__item__link"> Tên Phụ Kiện</a>
+                                    </li>
+                                    <li class="col-1__item col-1__item--children">
+                                        <a href="" class="col-1__item__link">Tên Phụ Kiện</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- <li class="sub-menu__item sub-menu__item--static">
+                                <a href="" class="sub-menu__item__link sub-menu__item__link--parent">ĐÁNH GIÁ</a>
+                                <div class="sub-menu__item__children shortcodes__list">
+                                    <div class="row">
+                                        <!-- <div class="col xlg-4">
+                                            <div class="title-and-items">
+                                                <h3>SHORTCODES</h3>
+                                                <ul class="items">
+                                                    <li class="item">
+                                                        <a href="" class="link">Accordions</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">Custom Heading</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">Messages</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">Progress Bar</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">SNS Counter</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">SNS Custom Box</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">SNS Featured Categories</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col xlg-4">
+                                            <div class="title-and-items">
+                                                <h3>SHORTCODES</h3>
+                                                <ul class="items">
+                                                    <li class="item">
+                                                        <a href="" class="link">SNS Latest Posts</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">SNS Member</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">SNS Our Brand</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">SNS Product Tabs</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">SNS Products</a>
+                                                    </li>
+                                                    <li class="item">
+                                                        <a href="" class="link">SNS Testimonials</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col xlg-4">
+                                            <a href="" class='image-link'>
+                                                <img src="./assets/image/img11.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div> -->
+                                <!-- </div>
+                            </li> --> 
+                            <li class="sub-menu__item">
+                                <a href="" class="sub-menu__item__link">PHẢN HỒI</a>
+                            </li>
+                            <li class="sub-menu__item">
+                                <a href="" class="sub-menu__item__link">LIÊN HỆ</a>
+                            </li>
+                        </ul>
+                        <div class="header__menu__right v-center">
+                            <div class="header__menu__right__search">
+                                <i class="fa fa-search"></i>
+                                <div class="search__content">
+                                    <form action="" class="v-center">
+                                        <input type="text" placeholder="Search entire store here ...">
+                                        <button type="submit">SEARCH</button>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="header__menu__right__cart">
+                                <i class="fas fa-shopping-cart"></i>
+                                <span class="cart__number">0</span> ( items )
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </header>
+        <div class="container">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="content-box-left col xlg-6 lg-6 md-6 sm-12 xsm-12">
+                        <div class="image__list">
+                            <div class="bullets">
+                                <div class="bullet">
+
+                                </div>
+                                <div class="bullet">
+
+                                </div>
+                                <div class="bullet">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-box-right col xlg-6 lg-6 md-6 sm-12 xsm-12">
+                        <a href="" class="content-box-right__top img-effect-hover-1">
+                            <img  src="./assets/image/img3.png" alt="" class="content-box-right__top__img">
+                        </a>
+                        <div class="row content-box-right__bot">
+                            <div class="col xlg-6 lg-6 md-6 sm-6 xsm-6">
+                                <a href="" class="content-box-right__bot__left img-effect-hover-2">
+                                    <img src="./assets/image/img3.png" alt="" class="content-box-right__bot__left__img">
+                                </a>
+                            </div>
+                            <div class="col xlg-6 lg-6 md-6 sm-6 xsm-6">
+                                <a href="" class="content-box-right__bot__right img-effect-hover-3">
+                                    <img src="./assets/image/img3.png" alt="" class="content-box-right__bot__right__img">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="products">
+                    <ul class="nav-product v-center">
+                        <li class="nav-product__item nav-product__item--first">
+                            <a href="" class='nav-product__item__title-link nav-product__item__title-link--active'>
+                                BÁN CHẠY
+                            </a>
+                        </li>
+                        <li class="nav-product__item">
+                            <a href="" class='nav-product__item__title-link'>
+                                KHUYẾN MÃI
+                            </a>
+                        </li>
+                        <li class="nav-product__item">
+                            <a href="" class='nav-product__item__title-link'>
+                                MỚI NHẤT
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="row">
+                        <div class="col xlg-2-4 lg-2-4 md-4 sm-6 xsm-12">
+                            <div class="product product--sale">
+                                <div class="product-img-info">
+                                    <a href="" class="product__link">
+                                        <img src="./assets/image/img17.jpg" class="product__img" alt="">
+                                        <div class="product__sale">
+                                            SALE!
+                                        </div>
+                                    </a>
+                                    <div class="item-box-hover">
+                                        <div class="cart-wrap">
+                                            <i class="fas fa-shopping-cart"></i> THÊM GIỎ HÀNG
+                                        </div>
+                                        <div class="box-inner v-center">
+                                            <a href="" class="box-inner__item wishlist">
+                                                <i class="fas fa-heart"></i>
+                                                <div class="icon-script">Thêm Yêu Thích</div>
+                                            </a>
+                                            <a href="" class="box-inner__item compare">
+                                                <i class="fas fa-random"></i>
+                                                <div class="icon-script">Tương Tự</div>
+
+                                            </a>
+                                            <a href="" class="box-inner__item view">
+                                                <i class="fas fa-eye"></i>
+                                                <div class="icon-script">Xem Nhanh</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="" class="product__name">Tên Sản Phẩm</a>
+                                <div class="product__price">
+                                    <span class="old-price">100.000 VND</span>
+                                    <span class="new-price">90.000 VND</span>
+                                </div>
+                                <div class="product__rating">
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col xlg-2-4 lg-2-4 md-4 sm-6 xsm-12">
+                            <div class="product">
+                                <div class="product-img-info">
+                                    <a href="" class="product__link">
+                                        <img src="./assets/image/img18.jpg" class="product__img" alt="">
+                                        <div class="product__sale">
+                                            SALE!
+                                        </div>
+                                    </a>
+                                    <div class="item-box-hover">
+                                        <div class="cart-wrap">
+                                            <i class="fas fa-shopping-cart"></i> THÊM GIỎ HÀNG
+                                        </div>
+                                        <div class="box-inner v-center">
+                                            <a href="" class="box-inner__item wishlist">
+                                                <i class="fas fa-heart"></i>
+                                                <div class="icon-script">Thêm Yêu Thích</div>
+                                            </a>
+                                            <a href="" class="box-inner__item compare">
+                                                <i class="fas fa-random"></i>
+                                                <div class="icon-script">Tương Tự</div>
+
+                                            </a>
+                                            <a href="" class="box-inner__item view">
+                                                <i class="fas fa-eye"></i>
+                                                <div class="icon-script">Xem Nhanh</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="" class="product__name">Tên Sản Phẩm</a>
+                                <div class="product__price">
+                                    <span class="old-price">100.000 VND</span>
+                                    <span class="new-price">100.000 VND</span>
+                                </div>
+                                <div class="product__rating">
+                                    <i class="far fa-star fas fa-star--gold"></i>
+                                    <i class="far fa-star fas fa-star--gold"></i>
+                                    <i class="fas fa-star fas fa-star--gold"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col xlg-2-4 lg-2-4 md-4 sm-6 xsm-12">
+                            <div class="product product--sale">
+                                <div class="product-img-info">
+                                    <a href="" class="product__link">
+                                        <img src="./assets/image/img17.jpg" class="product__img" alt="">
+                                        <div class="product__sale">
+                                            SALE!
+                                        </div>
+                                    </a>
+                                    <div class="item-box-hover">
+                                        <div class="cart-wrap">
+                                            <i class="fas fa-shopping-cart"></i> THÊM GIỎ HÀNG
+                                        </div>
+                                        <div class="box-inner v-center">
+                                            <a href="" class="box-inner__item wishlist">
+                                                <i class="fas fa-heart"></i>
+                                                <div class="icon-script">Thêm Yêu Thích</div>
+                                            </a>
+                                            <a href="" class="box-inner__item compare">
+                                                <i class="fas fa-random"></i>
+                                                <div class="icon-script">Tương Tự</div>
+
+                                            </a>
+                                            <a href="" class="box-inner__item view">
+                                                <i class="fas fa-eye"></i>
+                                                <div class="icon-script">Xem Nhanh</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="" class="product__name">Tên Sản Phẩm</a>
+                                <div class="product__price">
+                                    <span class="old-price">100.000 VND</span>
+                                    <span class="new-price">100.000 VND</span>
+                                </div>
+                                <div class="product__rating">
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col xlg-2-4 lg-2-4 md-4 sm-6 xsm-12">
+                            <div class="product">
+                                <div class="product-img-info">
+                                    <a href="" class="product__link">
+                                        <img src="./assets/image/img19.jpg" class="product__img" alt="">
+                                        <div class="product__sale">
+                                            SALE!
+                                        </div>
+                                    </a>
+                                    <div class="item-box-hover">
+                                        <div class="cart-wrap">
+                                            <i class="fas fa-shopping-cart"></i> THÊM GIỎ HÀNG
+                                        </div>
+                                        <div class="box-inner v-center">
+                                            <a href="" class="box-inner__item wishlist">
+                                                <i class="fas fa-heart"></i>
+                                                <div class="icon-script">Thêm Yêu Thích</div>
+                                            </a>
+                                            <a href="" class="box-inner__item compare">
+                                                <i class="fas fa-random"></i>
+                                                <div class="icon-script">Tương Tự</div>
+
+                                            </a>
+                                            <a href="" class="box-inner__item view">
+                                                <i class="fas fa-eye"></i>
+                                                <div class="icon-script">Xem Nhanh</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="" class="product__name">Tên Sản Phẩm</a>
+                                <div class="product__price">
+                                    <span class="old-price">100.000 VND</span>
+                                    <span class="new-price">90.000 VND</span>
+                                </div>
+                                <div class="product__rating">
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col xlg-2-4 lg-2-4 md-4 sm-6 xsm-12">
+                            <div class="product">
+                                <div class="product-img-info">
+                                    <a href="" class="product__link">
+                                        <img src="./assets/image/img20.jpg" class="product__img" alt="">
+                                        <div class="product__sale">
+                                            SALE!
+                                        </div>
+                                    </a>
+                                    <div class="item-box-hover">
+                                        <div class="cart-wrap">
+                                            <i class="fas fa-shopping-cart"></i> THÊM GIỎ HÀNG
+                                        </div>
+                                        <div class="box-inner v-center">
+                                            <a href="" class="box-inner__item wishlist">
+                                                <i class="fas fa-heart"></i>
+                                                <div class="icon-script">Thêm Yêu Thích</div>
+                                            </a>
+                                            <a href="" class="box-inner__item compare">
+                                                <i class="fas fa-random"></i>
+                                                <div class="icon-script">Tương Tự</div>
+
+                                            </a>
+                                            <a href="" class="box-inner__item view">
+                                                <i class="fas fa-eye"></i>
+                                                <div class="icon-script">Xem Nhanh</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="" class="product__name">Tên Sản Phẩm</a>
+                                <div class="product__price">
+                                    <span class="old-price">100.000 VND</span>
+                                    <span class="new-price">100.000 VND</span>
+                                </div>
+                                <div class="product__rating">
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="new-product">
+                    <div class="row">
+                        <div class="col xlg-6 lg-6 md-6 sm-12 xsm-12">
+                            <div class="new-product__image-container">
+                                <img src="./assets/image/img17.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col xlg-6 lg-6 md-6 sm-12 xsm-12">
+                            <div class="new-product__content">
+                                <h2>ĐẾN VỚI 2H-DECOR</h2>
+                                <b>Click mua ngay nhận quà liền tay</b> 
+                                <br>
+                                Trang trí nội thất không gian cần đến sự đồng nhất và có vài chi tiết nổi bật như vậy mới mang đến không gian thoáng rộng, trang nhã, sang trọng giúp cho việc thư giản được tốt hơn rất nhiều.
+                                <br>
+                                <br>
+                                <button>MUA NGAY</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="products">
+                    <ul class="nav-product v-center">
+                        <li class="nav-product__item nav-product__item--first">BỘ SƯU TẬP</li>
+                    </ul>
+                    <div class="nav-suggest">
+                        <div class="nav-suggest__mobile-button">
+                            <i class="fas fa-bars"></i>
+                            <div class="nav-suggest__mobile-button__title__list">
+                                <div class="nav-suggest__mobile-button__title__item nav-suggest__mobile-button__title__item--active">Office chair</div>
+                                <div class="nav-suggest__mobile-button__title__item">Sofas</div>
+                                <div class="nav-suggest__mobile-button__title__item">Good chair</div>
+                                <div class="nav-suggest__mobile-button__title__item">Coffee chair</div>
+                                <div class="nav-suggest__mobile-button__title__item">Ourdoor table</div>
+                                <div class="nav-suggest__mobile-button__title__item">Ipsum Chair</div>
+                                <div class="nav-suggest__mobile-button__title__item">Wood Chair</div>
+                                <div class="nav-suggest__mobile-button__title__item">Coffee Tables</div>
+                                <div class="nav-suggest__mobile-button__title__item">Living Room</div>
+                            </div>
+                        </div>
+                        <div class="nav-suggest__titles-row row no-gutters">
+                            <div class="col xlg-1-3 lg-1-3">
+                                <div class="suggest__title-img suggest__title-img--active">
+                                    <a href="">
+                                        <img src="./assets/image/img18.jpg" alt="">
+                                        <p>Office chair</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col xlg-1-3 lg-1-3">
+                                <div class="suggest__title-img">
+                                    <a href="">
+                                        <img src="./assets/image/suggest2.jpg" alt="">
+                                        <p>Sofas</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col xlg-1-3 lg-1-3">
+                                <div class="suggest__title-img">
+                                    <a href="">
+                                        <img src="./assets/image/suggest3.jpg" alt="">
+                                        <p>Good chair</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col xlg-1-3 lg-1-3">
+                                <div class="suggest__title-img">
+                                    <a href="">
+                                        <img src="./assets/image/suggest4.jpg" alt="">
+                                        <p>Coffee chair</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col xlg-1-3 lg-1-3">
+                                <div class="suggest__title-img">
+                                    <a href="">
+                                        <img src="./assets/image/suggest5.jpg" alt="">
+                                        <p>Ourdoor table</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col xlg-1-3 lg-1-3">
+                                <div class="suggest__title-img">
+                                    <a href="">
+                                        <img src="./assets/image/suggest6.jpg" alt="">
+                                        <p>Ipsum Chair</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col xlg-1-3 lg-1-3">
+                                <div class="suggest__title-img">
+                                    <a href="">
+                                        <img src="./assets/image/suggest7.jpg" alt="">
+                                        <p>Wood Chair</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col xlg-1-3 lg-1-3">
+                                <div class="suggest__title-img">
+                                    <a href="">
+                                        <img src="./assets/image/suggest8.jpg" alt="">
+                                        <p>Coffee Tables</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col xlg-1-3 lg-1-3">
+                                <div class="suggest__title-img">
+                                    <a href="">
+                                        <img src="./assets/image/suggest9.jpg" alt="">
+                                        <p>Living Room</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col xlg-2-4 lg-2-4 md-4 sm-6 xsm-12">
+                            <div class="product product--sale">
+                                <div class="product-img-info">
+                                    <a href="" class="product__link">
+                                        <img src="./assets/image/img18.jpg" class="product__img" alt="">
+                                        <div class="product__sale">
+                                            SALE!
+                                        </div>
+                                    </a>
+                                    <div class="item-box-hover">
+                                        <div class="cart-wrap">
+                                            <i class="fas fa-shopping-cart"></i> THÊM GIỎ HÀNG
+                                        </div>
+                                        <div class="box-inner v-center">
+                                            <a href="" class="box-inner__item wishlist">
+                                                <i class="fas fa-heart"></i>
+                                                <div class="icon-script">Thêm Yêu Thích</div>
+                                            </a>
+                                            <a href="" class="box-inner__item compare">
+                                                <i class="fas fa-random"></i>
+                                                <div class="icon-script">Tương Tự</div>
+
+                                            </a>
+                                            <a href="" class="box-inner__item view">
+                                                <i class="fas fa-eye"></i>
+                                                <div class="icon-script">Xem Nhanh</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="" class="product__name">Tên Sản Phẩm</a>
+                                <div class="product__price">
+                                    <span class="old-price">100.000 VND</span>
+                                    <span class="new-price">100.000 VND</span>
+                                </div>
+                                <div class="product__rating">
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col xlg-2-4 lg-2-4 md-4 sm-6 xsm-12">
+                            <div class="product">
+                                <div class="product-img-info">
+                                    <a href="" class="product__link">
+                                        <img src="./assets/image/img18.jpg" class="product__img" alt="">
+                                        <div class="product__sale">
+                                            SALE!
+                                        </div>
+                                    </a>
+                                    <div class="item-box-hover">
+                                        <div class="cart-wrap">
+                                            <i class="fas fa-shopping-cart"></i> THÊM GIỎ HÀNG
+                                        </div>
+                                        <div class="box-inner v-center">
+                                            <a href="" class="box-inner__item wishlist">
+                                                <i class="fas fa-heart"></i>
+                                                <div class="icon-script">Thêm Yêu Thích</div>
+                                            </a>
+                                            <a href="" class="box-inner__item compare">
+                                                <i class="fas fa-random"></i>
+                                                <div class="icon-script">Tương Tự</div>
+
+                                            </a>
+                                            <a href="" class="box-inner__item view">
+                                                <i class="fas fa-eye"></i>
+                                                <div class="icon-script">Xem Nhanh</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="" class="product__name">Tên Sản Phẩm</a>
+                                <div class="product__price">
+                                    <span class="old-price">100.000 VND</span>
+                                    <span class="new-price">100.000 VND</span>
+                                </div>
+                                <div class="product__rating">
+                                    <i class="far fa-star fas fa-star--gold"></i>
+                                    <i class="far fa-star fas fa-star--gold"></i>
+                                    <i class="fas fa-star fas fa-star--gold"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col xlg-2-4 lg-2-4 md-4 sm-6 xsm-12">
+                            <div class="product product--sale">
+                                <div class="product-img-info">
+                                    <a href="" class="product__link">
+                                        <img src="./assets/image/img17.jpg" class="product__img" alt="">
+                                        <div class="product__sale">
+                                            SALE!
+                                        </div>
+                                    </a>
+                                    <div class="item-box-hover">
+                                        <div class="cart-wrap">
+                                            <i class="fas fa-shopping-cart"></i> THÊM GIỎ HÀNG
+                                        </div>
+                                        <div class="box-inner v-center">
+                                            <a href="" class="box-inner__item wishlist">
+                                                <i class="fas fa-heart"></i>
+                                                <div class="icon-script">Thêm Yêu Thích</div>
+                                            </a>
+                                            <a href="" class="box-inner__item compare">
+                                                <i class="fas fa-random"></i>
+                                                <div class="icon-script">Tương Tự</div>
+
+                                            </a>
+                                            <a href="" class="box-inner__item view">
+                                                <i class="fas fa-eye"></i>
+                                                <div class="icon-script">Xem Nhanh</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="" class="product__name">Tên Sản Phẩm</a>
+                                <div class="product__price">
+                                    <span class="old-price">100.000 VND</span>
+                                    <span class="new-price">100.000 VND</span>
+                                </div>
+                                <div class="product__rating">
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col xlg-2-4 lg-2-4 md-4 sm-6 xsm-12">
+                            <div class="product">
+                                <div class="product-img-info">
+                                    <a href="" class="product__link">
+                                        <img src="./assets/image/img19.jpg" class="product__img" alt="">
+                                        <div class="product__sale">
+                                            SALE!
+                                        </div>
+                                    </a>
+                                    <div class="item-box-hover">
+                                        <div class="cart-wrap">
+                                            <i class="fas fa-shopping-cart"></i> THÊM GIỎ HÀNG
+                                        </div>
+                                        <div class="box-inner v-center">
+                                            <a href="" class="box-inner__item wishlist">
+                                                <i class="fas fa-heart"></i>
+                                                <div class="icon-script">Thêm Yêu Thích</div>
+                                            </a>
+                                            <a href="" class="box-inner__item compare">
+                                                <i class="fas fa-random"></i>
+                                                <div class="icon-script">Tương Tự</div>
+
+                                            </a>
+                                            <a href="" class="box-inner__item view">
+                                                <i class="fas fa-eye"></i>
+                                                <div class="icon-script">Xem Nhanh</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="" class="product__name">Tên Sản Phẩm</a>
+                                <div class="product__price">
+                                    <span class="old-price">100.000 VND</span>
+                                    <span class="new-price">100.000 VND</span>
+                                </div>
+                                <div class="product__rating">
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col xlg-2-4 lg-2-4 md-4 sm-6 xsm-12">
+                            <div class="product">
+                                <div class="product-img-info">
+                                    <a href="" class="product__link">
+                                        <img src="./assets/image/img20.jpg" class="product__img" alt="">
+                                        <div class="product__sale">
+                                            SALE!
+                                        </div>
+                                    </a>
+                                    <div class="item-box-hover">
+                                        <div class="cart-wrap">
+                                            <i class="fas fa-shopping-cart"></i> THÊM GIỎ HÀNG
+                                        </div>
+                                        <div class="box-inner v-center">
+                                            <a href="" class="box-inner__item wishlist">
+                                                <i class="fas fa-heart"></i>
+                                                <div class="icon-script">Thêm Yêu Thích</div>
+                                            </a>
+                                            <a href="" class="box-inner__item compare">
+                                                <i class="fas fa-random"></i>
+                                                <div class="icon-script">Tương Tự</div>
+
+                                            </a>
+                                            <a href="" class="box-inner__item view">
+                                                <i class="fas fa-eye"></i>
+                                                <div class="icon-script">Xem Nhanh</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="" class="product__name">Tên Sản Phẩm</a>
+                                <div class="product__price">
+                                    <span class="old-price">100.000 VND</span>
+                                    <span class="new-price">100.000 VND</span>
+                                </div>
+                                <div class="product__rating">
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="advers-images">
+                        <div class="row">
+                            <div class="advers-images__1 col xlg-6 lg-6 md-6 sm-12 xsm-12">
+                                <a href="" class="advers-images__wrapper img-effect-hover-1">
+                                    <img src="./assets/image/img12.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="advers-images__2 col xlg-3 lg-3 md-3 sm-6 xsm-o-1 xsm-10">
+                                <a href="" class="advers-images__wrapper img-effect-hover-2">
+                                    <img src="./assets/image/img13.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="advers-images__3 col xlg-3 lg-3 md-3 sm-6 xsm-o-1 xsm-10">
+                                <a href="" class="advers-images__wrapper img-effect-hover-3">
+                                    <img src="./assets/image/img14.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products__most-viewed__container">
+                        <ul class="nav-product v-center">
+                            <li class="nav-product__item nav-product__item--first">XEM NHIỀU NHẤT</li>
+                            <div class="scroll__button">
+                                <button class="prew-button">
+                                    <i class="fas fa-long-arrow-alt-left"></i>
+                                </button>
+                                <button class="next-button">
+                                    <i class="fas fa-long-arrow-alt-right"></i>
+                                </button>
+                            </div>
+                        </ul>
+                        <div class="products__most-viewed row-scroll gutter10">
+                            <div class="products__most-viewed__col col xlg-3 lg-4 md-6 sm-6 xsm-12">
+                                <div class="products__most-viewed__col__item products__most-viewed__col__item--sale">
+                                    <a href="">
+                                        <img src="./assets/image/img17.jpg" alt="">
+                                    </a>
+                                    <div class="products__most-viewed__col__item__content">
+                                        <a href="" class="product__name">Tên Sản Phẩm</a>
+                                        <div class="product__price">
+                                            <span class="old-price">100.000 VND</span>
+                                            <span class="new-price">100.000 VND</span>
+                                        </div>
+                                        <div class="product__rating">
+                                            <i class="far fa-star fas fa-star--gold"></i>
+                                            <i class="far fa-star fas fa-star--gold"></i>
+                                            <i class="fas fa-star fas fa-star--gold"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                        <div class="cart-wrap">
+                                            <i class="fas fa-shopping-cart"></i> THÊM GIỎ HÀNG
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="products__most-viewed__col__item products__most-viewed__col__item--sale">
+                                    <a href="">
+                                        <img src="./assets/image/img18.jpg" alt="">
+                                    </a>
+                                    <div class="products__most-viewed__col__item__content">
+                                        <a href="" class="product__name">External/Affiliate Product</a>
+                                        <div class="product__price">
+                                            <span class="old-price">100.000 VND</span>
+                                            <span class="new-price">100.000 VND</span>
+                                        </div>
+                                        <div class="product__rating">
+                                            <i class="far fa-star fas fa-star--gold"></i>
+                                            <i class="far fa-star fas fa-star--gold"></i>
+                                            <i class="fas fa-star fas fa-star--gold"></i>
+                                            <i class="fas fa-star fas fa-star--gold"></i>
+                                            <i class="far fa-star fas fa-star--gold"></i>
+                                        </div>
+                                        <div class="cart-wrap">
+                                            <i class="fas fa-shopping-cart"></i> THÊM GIỎ HÀNG
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="products__most-viewed__col col xlg-3 lg-4 md-6 sm-6 xsm-12">
+                                <div class="products__most-viewed__col__item">
+                                    <a href="">
+                                        <img src="./assets/image/img19.jpg" alt="">
+                                    </a>
+                                    <div class="products__most-viewed__col__item__content">
+                                        <a href="" class="product__name">Tên Sản Phẩm</a>
+                                        <div class="product__price">
+                                            <span class="old-price">100.000 VND</span>
+                                            <span class="new-price">100.000 VND</span>
+                                        </div>
+                                        <div class="product__rating">
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                        <div class="cart-wrap">
+                                            <i class="fas fa-shopping-cart"></i> THÊM GIỎ HÀNG
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="products__most-viewed__col__item">
+                                    <a href="">
+                                        <img src="./assets/image/img20.jpg" alt="">
+                                    </a>
+                                    <div class="products__most-viewed__col__item__content">
+                                        <a href="" class="product__name">Tên Sản Phẩm</a>
+                                        <div class="product__price">
+                                            <span class="old-price">100.000 VND</span>
+                                            <span class="new-price">100.000 VND</span>
+                                        </div>
+                                        <div class="product__rating">
+                                            <i class="far fa-star fas fa-star--gold"></i>
+                                            <i class="far fa-star fas fa-star--gold"></i>
+                                            <i class="far fa-star fas fa-star--gold"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                        <div class="cart-wrap">
+                                            <i class="fas fa-shopping-cart"></i> THÊM GIỎ HÀNG
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="products__most-viewed__col col xlg-3 lg-4 md-6 sm-6 xsm-12">
+                                <div class="products__most-viewed__col__item">
+                                    <a href="">
+                                        <img src="./assets/image/img15.jpg" alt="">
+                                    </a>
+                                    <div class="products__most-viewed__col__item__content">
+                                        <a href="" class="product__name">Tên Sản Phẩm</a>
+                                        <div class="product__price">
+                                            <span class="old-price">100.000 VND</span>
+                                            <span class="new-price">100.000 VND </span>
+                                        </div>
+                                        <div class="product__rating">
+                                            <i class="far fa-star fas fa-star--gold"></i>
+                                            <i class="far fa-star fas fa-star--gold"></i>
+                                            <i class="far fa-star fas fa-star--gold"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                        <div class="cart-wrap">
+                                            <i class="fas fa-shopping-cart"></i> THÊM GIỎ HÀNG
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="products__most-viewed__col__item">
+                                    <a href="">
+                                        <img src="./assets/image/img18.jpg" alt="">
+                                    </a>
+                                    <div class="products__most-viewed__col__item__content">
+                                        <a href="" class="product__name">Tên Sản Phẩm</a>
+                                        <div class="product__price">
+                                            <span class="old-price">100.000 VND</span>
+                                            <span class="new-price">100.000 VND</span>
+                                        </div>
+                                        <div class="product__rating">
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                        <div class="cart-wrap">
+                                            <i class="fas fa-shopping-cart"></i> THÊM GIỎ HÀNG
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="products__most-viewed__col col xlg-3 lg-4 md-6 sm-6 xsm-12">
+                                <div class="products__most-viewed__col__item">
+                                    <a href="">
+                                        <img src="./assets/image/img16.jpg" alt="">
+                                    </a>
+                                    <div class="products__most-viewed__col__item__content">
+                                        <a href="" class="product__name">Donec Cursus</a>
+                                        <div class="product__price">
+                                            <span class="old-price">100.000 VND</span>
+                                            <span class="new-price">100.000 VND</span>
+                                        </div>
+                                        <div class="product__rating">
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                        <div class="cart-wrap">
+                                            <i class="fas fa-shopping-cart"></i> THÊM GIỎ HÀNG
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="products__most-viewed__col__item products__most-viewed__col__item--sale">
+                                    <a href="">
+                                        <img src="./assets/image/img17.jpg" alt="">
+                                    </a>
+                                    <div class="products__most-viewed__col__item__content">
+                                        <a href="" class="product__name">Grouped Product</a>
+                                        <div class="product__price">
+                                            <span class="old-price">100.000 VND</span>
+                                            <span class="new-price">100.000 VND</span>
+                                        </div>
+                                        <div class="product__rating">
+                                            <i class="far fa-star fas fa-star--gold"></i>
+                                            <i class="far fa-star fas fa-star--gold"></i>
+                                            <i class="far fa-star fas fa-star--gold"></i>
+                                            <i class="far fa-star fas fa-star--gold"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                        <div class="cart-wrap">
+                                            <i class="fas fa-shopping-cart"></i> THÊM GIỎ HÀNG
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="products__most-viewed__col col xlg-3 lg-4 md-6 sm-6 xsm-12">
+                                <div class="products__most-viewed__col__item products__most-viewed__col__item--sale">
+                                    <a href="">
+                                        <img src="./assets/image/suggest9.jpg" alt="">
+                                    </a>
+                                    <div class="products__most-viewed__col__item__content">
+                                        <a href="" class="product__name">scelerisque accumsan</a>
+                                        <div class="product__price">
+                                            <span class="old-price">100.000 VND</span>
+                                            <span class="new-price">100.000 VND</span>
+                                        </div>
+                                        <div class="product__rating">
+                                            <i class="far fa-star fas fa-star--gold"></i>
+                                            <i class="far fa-star fas fa-star--gold"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                        <div class="cart-wrap">
+                                            <i class="fas fa-shopping-cart"></i> THÊM GIỎ HÀNG
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="products__most-viewed__col__item products__most-viewed__col__item--sale">
+                                    <a href="">
+                                        <img src="./assets/image/img18.jpg" alt="">
+                                    </a>
+                                    <div class="products__most-viewed__col__item__content">
+                                        <a href="" class="product__name">Urna in eros</a>
+                                        <div class="product__price">
+                                            <span class="old-price">100.000 VND</span>
+                                            <span class="new-price">100.000 VND</span>
+                                        </div>
+                                        <div class="product__rating">
+                                            <i class="far fa-star fas fa-star--gold"></i>
+                                            <i class="far fa-star fas fa-star--gold"></i>
+                                            <i class="far fa-star fas fa-star--gold"></i>
+                                            <i class="far fa-star fas fa-star--gold"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                        <div class="cart-wrap">
+                                            <i class="fas fa-shopping-cart"></i> THÊM GIỎ HÀNG
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products__lastest-posts__container">
+                        <ul class="nav-product v-center">
+                            <li class="nav-product__item nav-product__item--first">BÁN CHẠY</li>
+                            <div class="scroll__button">
+                                <button class="prew-button">
+                                    <i class="fas fa-long-arrow-alt-left"></i>
+                                </button>
+                                <button class="next-button">
+                                    <i class="fas fa-long-arrow-alt-right"></i>
+                                </button>
+                            </div>
+                        </ul>
+                        <div class="products__lastest-posts row-scroll gutter15">
+                            <div class="products__lastest-posts__item col xlg-4 lg-4 md-6 sm-6 xsm-12">
+                                <a href="" class="products__lastest-posts__item__img img-effect-hover-1">
+                                    <img src="./assets/image/img15.jpg" alt="">
+                                </a>
+                                <div class="products__lastest-posts__item__infor">
+                                    <div class="date-month">
+                                        <div class="date-month__date">3</div>
+                                        <div class="date-month__month">TOP</div>
+                                    </div>
+                                    <div class="products__lastest-posts__item__content">
+                                        <a href="" class="author">Thương Hiệu</a>
+                                        <a href="" class="title">Tên Sản Phẩm</a>
+                                        <div class="excerpt">
+                                            Miễn phí đổi trả lại hàng, hoàn tiền khi vỡ hỏng do quá trình vận chuyển và sản xuất. Bạn nhận được hàng nếu phát hiện bất kỳ lỗi nào vui lòng inbox ngay để chúng mình khắc phục kịp thờiMiễn phí đổi trả lại hàng, hoàn tiền khi vỡ hỏng do quá trình vận chuyển và sản xuất. Bạn nhận được hàng nếu phát hiện bất kỳ lỗi nào vui lòng inbox ngay để chúng mình khắc phục kịp thời
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="products__lastest-posts__item col xlg-4 lg-4 md-6 sm-6 xsm-12">
+                                <a href="" class="products__lastest-posts__item__img img-effect-hover-1">
+                                    <img src="./assets/image/img16.jpg" alt="">
+                                </a>
+                                <div class="products__lastest-posts__item__infor">
+                                    <div class="date-month">
+                                        <div class="date-month__date">3</div>
+                                        <div class="date-month__month">TOP</div>
+                                    </div>
+                                    <div class="products__lastest-posts__item__content">
+                                        <a href="" class="author">Thương Hiệu</a>
+                                        <a href="" class="title">Tên Sản Phẩm</a>
+                                        <div class="excerpt">
+                                            Miễn phí đổi trả lại hàng, hoàn tiền khi vỡ hỏng do quá trình vận chuyển và sản xuất. Bạn nhận được hàng nếu phát hiện bất kỳ lỗi nào vui lòng inbox ngay để chúng mình khắc phục kịp thờiMiễn phí đổi trả lại hàng, hoàn tiền khi vỡ hỏng do quá trình vận chuyển và sản xuất. Bạn nhận được hàng nếu phát hiện bất kỳ lỗi nào vui lòng inbox ngay để chúng mình khắc phục kịp thời
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="products__lastest-posts__item col xlg-4 lg-4 md-6 sm-6 xsm-12">
+                                <a href="" class="products__lastest-posts__item__img img-effect-hover-1">
+                                    <img src="./assets/image/img17.jpg" alt="">
+                                </a>
+                                <div class="products__lastest-posts__item__infor">
+                                    <div class="date-month">
+                                        <div class="date-month__date">3</div>
+                                        <div class="date-month__month">TOP</div>
+                                    </div>
+                                    <div class="products__lastest-posts__item__content">
+                                        <a href="" class="author">Thương Hiệu</a>
+                                        <a href="" class="title">Tên Sản Phẩm</a>
+                                        <div class="excerpt">
+                                            Miễn phí đổi trả lại hàng, hoàn tiền khi vỡ hỏng do quá trình vận chuyển và sản xuất. Bạn nhận được hàng nếu phát hiện bất kỳ lỗi nào vui lòng inbox ngay để chúng mình khắc phục kịp thờiMiễn phí đổi trả lại hàng, hoàn tiền khi vỡ hỏng do quá trình vận chuyển và sản xuất. Bạn nhận được hàng nếu phát hiện bất kỳ lỗi nào vui lòng inbox ngay để chúng mình khắc phục kịp thời
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="products__lastest-posts__item col xlg-4 lg-4 md-6 sm-6 xsm-12">
+                                <a href="" class="products__lastest-posts__item__img img-effect-hover-1">
+                                    <img src="./assets/image/img20.jpg" alt="">
+                                </a>
+                                <div class="products__lastest-posts__item__infor">
+                                    <div class="date-month">
+                                        <div class="date-month__date">3</div>
+                                        <div class="date-month__month">TOP</div>
+                                    </div>
+                                    <div class="products__lastest-posts__item__content">
+                                        <a href="" class="author">Admin</a>
+                                        <a href="" class="title">Richard McClintock at Hampden-Sydney</a>
+                                        <div class="excerpt">
+                                            Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2 -->
+
+                    
+                </div>
+                <div class="donor-logo__container">
+                    <div class="donor-logo row-scroll no-gutters">
+                        <a href="" class="donor-logo__item col xlg-2 lg-2-4 md-3 sm-4 xsm-6">
+                            <img src="./assets/image/logo1.png" alt="">
+                        </a>
+                        <a href="" class="donor-logo__item col xlg-2 lg-2-4 md-3 sm-4 xsm-6">
+                            <img src="./assets/image/logo2.png" alt="">
+                        </a>
+                        <a href="" class="donor-logo__item col xlg-2 lg-2-4 md-3 sm-4 xsm-6">
+                            <img src="./assets/image/logo3.png" alt="">
+                        </a>
+                        <a href="" class="donor-logo__item col xlg-2 lg-2-4 md-3 sm-4 xsm-6">
+                            <img src="./assets/image/logo4.png" alt="">
+                        </a>
+                        <a href="" class="donor-logo__item col xlg-2 lg-2-4 md-3 sm-4 xsm-6">
+                            <img src="./assets/image/logo5.png" alt="">
+                        </a>
+                        <a href="" class="donor-logo__item col xlg-2 lg-2-4 md-3 sm-4 xsm-6">
+                            <img src="./assets/image/logo6.png" alt="">
+                        </a>
+                        <a href="" class="donor-logo__item col xlg-2 lg-2-4 md-3 sm-4 xsm-6">
+                            <img src="./assets/image/logo1.png" alt="">
+                        </a>
+                        <a href="" class="donor-logo__item col xlg-2 lg-2-4 md-3 sm-4 xsm-6">
+                            <img src="./assets/image/logo2.png" alt="">
+                        </a>
+                        <a href="" class="donor-logo__item col xlg-2 lg-2-4 md-3 sm-4 xsm-6">
+                            <img src="./assets/image/logo3.png" alt="">
+                        </a>
+                        <a href="" class="donor-logo__item col xlg-2 lg-2-4 md-3 sm-4 xsm-6">
+                            <img src="./assets/image/logo4.png" alt="">
+                        </a>
+                        <a href="" class="donor-logo__item col xlg-2 lg-2-4 md-3 sm-4 xsm-6">
+                            <img src="./assets/image/logo5.png" alt="">
+                        </a>
+                        <a href="" class="donor-logo__item col xlg-2 lg-2-4 md-3 sm-4 xsm-6">
+                            <img src="./assets/image/logo6.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col xlg-2-4 lg-2-4 md-6 sm-12 xsm-12">
+                        <div class="footer__widget">
+                            <div class="footer__widget__title">Liên Hệ</div>
+                            <div class="footer__widget__content">
+                                <div class="infor v-center">
+                                    <div class="infor__icon v-center">
+                                        <i class="fas fa-home"></i>
+                                    </div>
+                                    <div class="infor__text">Thanh Xuân - Hà Nội</div>
+                                </div>
+                                <div class="infor v-center">
+                                    <div class="infor__icon v-center">
+                                        <i class="fas fa-phone-alt"></i>
+                                    </div>
+                                    <div class="infor__text">
+                                        <p>0356579021</p>
+                                        <p>023456789</p>
+                                    </div>
+                                </div>
+                                <div class="infor v-center">
+                                    <div class="infor__icon v-center">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                    <div class="infor__text">
+                                        <a href="">nguyenhoang080721@gmail.com</a>
+                                        <a href="">tranhdecor@gmail.com</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col xlg-2-4 lg-2-4 md-6 sm-12 xsm-12">
+                        <div class="footer__widget">
+                            <div class="footer__widget__title">PHỤC VỤ</div>
+                            <div class="footer__widget__content">
+                                <a href="" class="footer__widget__content__link">Giá thành hợp lý</a>
+                                <a href="" class="footer__widget__content__link">Thanh toán khi nhận hàng</a>
+                                <a href="" class="footer__widget__content__link">Hỗ trợ chi phí đặt hàng</a>
+                                <a href="" class="footer__widget__content__link">Đổi trả hàng nếu có lỗi</a>
+                                <a href="" class="footer__widget__content__link">Liên hệ để tìm hiểu thêm</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col xlg-2-4 lg-2-4 md-6 sm-12 xsm-12">
+                        <div class="footer__widget">
+                            <div class="footer__widget__title">TÀI KHOẢN</div>
+                            <div class="footer__widget__content">
+                                <a href="" class="footer__widget__content__link">Tài Khoản</a>
+                                <a href="" class="footer__widget__content__link">Yêu Thích</a>
+                                <a href="" class="footer__widget__content__link">Lịch Sử Đặt Hàng</a>
+                                <a href="" class="footer__widget__content__link">Khuyến Mãi Khi Mua Nhiều</a>
+                                <a href="" class="footer__widget__content__link">Vouchers Hấp Dẫn</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col xlg-2-4 lg-2-4 md-6 sm-12 xsm-12">
+                        <div class="footer__widget">
+                            <div class="footer__widget__title">THÔNG TIN</div>
+                            <div class="footer__widget__content">
+                                <a href="" class="footer__widget__content__link">Bảo Mật Tài Khoản</a>
+                                <a href="" class="footer__widget__content__link">Thông Tin Khách Hàng</a>
+                                <a href="" class="footer__widget__content__link">Lịch Sử Mua Hàng</a>
+                                <a href="" class="footer__widget__content__link">Nội Dung</a>
+                                <a href="" class="footer__widget__content__link">Đặt Sự Tin Tưởng Hàng Đầu</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col xlg-2-4 lg-2-4 md-6 sm-12 xsm-12">
+                        <div class="footer__widget">
+                            <div class="footer__widget__title">BẢNG TIN</div>
+                            <div class="footer__widget__content">
+                                <span class="register-text">Nhập Email Để Nhận Thông Báo Từ Chúng Tôi</span>
+                                <input type="text" placeholder="Your email here">
+                                <button>GỬI</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="last-footer">
+                <div class="grid wide">
+                    <div class="last-footer__container v-center">
+                        <span>© 2022 Đăng kí bản quyền bởi 2H-Decor</span>
+                        <img src="./assets/image/logo7.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </footer>
+        </div>
+    </div>
+    <button class="back-to-top show"><i class="fa fa-angle-up"></i></button>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/backToTop.js"></script>
+    <script src="./assets/js/menuMobile.js"></script>
+</body>
+
+</html>
